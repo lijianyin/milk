@@ -1,0 +1,462 @@
+@charset="utf-8";
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	font-family:"微软雅黑";
+}
+.banner-box{
+	position:relative;
+	width:100%;
+	min-width:1200px;
+	height:729px;
+	overflow:hidden;
+}
+.banner {
+    width:1920px;
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+}
+.banner-content{
+	position:absolute;
+	left:50%;
+	top:310px;
+	z-index:1;
+	width:445px;
+	margin-left:-570px;
+	text-align:center;
+}
+.banner-content p.p-1{
+	font-size:27px;
+	color:#2568df;
+}
+.banner-content p.p-2{
+	font-size:32px;
+	color:#2568df;
+}
+.banner-content .p-3-box{
+	width:443px;
+	height:62px;
+	margin-top:10px;
+	background:#2065de;
+	border:1px solid #7ca4ec;
+}
+.banner-content p.p-3{
+	width:423px;
+	height:51px;
+	margin:3px 0 0 7px;
+	font-size:27px;
+	color:#fff;
+	line-height:51px;
+	border:3px solid #fff;
+	border-bottom:2px solid #fff;
+	border-right:2px solid #fff;
+}
+.content-1{
+	width:1200px;
+	margin:53px auto 0;
+	padding:0 6px;
+}
+.content-1 ul li{
+	float:left;
+	width:269px;
+	height:132px;
+	margin-right:37px;
+}
+.content-1 ul li.li-4{
+	margin-right:0;
+}
+.content-1 ul li .box-1{
+	width:267px;
+	height:130px;
+	background:#2065de;
+	border:1px solid #c4d6f6;
+}
+.content-1 ul li .box-1 .box-2{
+	overflow:hidden;
+	width:245px;
+	height:107px;
+	margin:7px 0 0 7px;
+	border:3px solid #fff;
+}
+.content-1 ul li .box-1 .box-2 .p-1{
+	float:left;
+	font-size:70px;
+	color:#fdfdfd;
+	margin-top:5px;
+	margin-left:10px;
+}
+.content-1 ul li .box-1 .box-2 .box-3{
+	float:left;
+	margin-top:20px;
+	margin-left:5px;
+}
+.content-1 ul li .box-1 .box-2 .box-3 p{
+	font-size:22px;
+	color:#fdfdfd;
+}
+.content-1 ul li .box-1 .box-2 .box-3 p.p-2{
+	padding-left:3px;
+}
+.content-1 ul li .box-1 .box-2 .box-3 p.p-3{
+	padding-top:3px;
+}
+.content-2{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-top:47px;
+}
+.content-2 .logo{
+	margin-left:479px;
+}
+.content-2 .zhihui{
+	margin-left:266px;
+	overflow:hidden;
+	margin-top:10px;
+}
+.content-2 .zhihui div{
+	float:left;
+}
+.content-2 .zhihui .box-2{
+	margin:0 9px;
+}
+.content-2 .zhihui .box-2 p{
+	font-size:22px;
+	color:#2065de;
+}
+.content-2 .life{
+	width:866px;
+	margin-left:175px;
+	margin-top:10px;
+}
+.content-2 .life p{
+	text-align:center;
+	font-size:16px;
+	color:#2065de;
+	line-height:25px;
+}
+.content-2 .ditu{
+	width:1200px;
+	margin:39px auto 0;
+}
+.content-2 .ditu img{
+	display:block;
+	padding-left:319px;
+}
+.BabyNes-box{
+	width:1200px;
+	margin:75px auto 0;
+	overflow:hidden;
+}
+.BabyNes-box h2{
+	width:1200px;
+	text-align:center;
+	font-size:36px;
+	color:#2568df;
+}
+.BabyNes-box .yy-wr-fw{
+	margin-left:266px;
+	overflow:hidden;
+	margin-top:10px;
+}
+.BabyNes-box .yy-wr-fw div{
+	float:left;
+}
+.BabyNes-box .yy-wr-fw .box-2{
+	margin:0 15px;
+}
+.BabyNes-box .yy-wr-fw .box-2 p{
+	font-size:22px;
+	color:#2065de;
+}
+.BabyNes-box .nav{
+	width:1200px;
+	margin-top:25px;
+	overflow:hidden;
+}
+.BabyNes-box .nav ul li{
+	float:left;
+	width:198px;
+	height:50px;
+	background:#2568df;
+	border:1px solid #b2caf4;
+	line-height:50px;
+}
+.BabyNes-box .nav ul li a{
+	font-size:18px;
+	color:#fff;
+	background:url(../images/nav.png) no-repeat left;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-left:26px;
+}
+.BabyNes-box .nav ul li.li-1 a{
+	padding-left:92px;
+}
+.BabyNes-box .nav ul li.li-2 a{
+	padding-left:82px;
+}
+.BabyNes-box .nav ul li.li-3 a{
+	padding-left:76px;
+}
+.BabyNes-box .nav ul li.li-4 a{
+	padding-left:72px;
+}
+.BabyNes-box .nav ul li.li-5 a{
+	padding-left:70px;
+}
+.BabyNes-box .nav ul li.li-6 a{
+	padding-left:70px;
+}
+.BabyNes-box .nav ul li:hover{
+	border-right-color:#fff;
+}
+.BabyNes-box .product{
+	margin-top:32px;
+	overflow:hidden;
+}
+.BabyNes-box .product ul li{
+	float:left;
+	margin-right:150px;
+}
+.BabyNes-box .product ul li.li-1{
+	margin-right:0px;
+}
+.BabyNes-box .product ul li.li-2{
+	margin-bottom:40px;
+}
+.BabyNes-box .product ul li.li-3{
+	margin-right:115px;
+}
+.BabyNes-box .product ul li.li-4{
+	margin-right:140px;
+}
+.BabyNes-box .product ul li img{
+	margin-bottom:12px;
+}
+.BabyNes-box .product ul li p.p-1{
+	font-size:21px;
+	color:#2568df;
+	line-height:32px;
+}
+.BabyNes-box .product ul li p.p-2{
+	font-size:18px;
+	color:#d60204;
+	line-height:32px;
+}
+.BabyNes-box .product ul li .box-1{
+	overflow:hidden;
+	margin-top:5px;
+}
+.BabyNes-box .product ul li .box-1 p{
+	float:left;
+}
+.BabyNes-box .product ul li .box-1 p.p-1{
+	width:53px;
+	height:19px;
+	border:2px solid #d60204;
+	border-radius:5px;
+	font-size:14px;
+	color:#d60204;
+	text-align:center;
+	line-height:19px;
+}
+.BabyNes-box .product ul li .box-1 p.p-2{
+	width:53px;
+	height:19px;
+	border:2px solid #d60204;
+	border-radius:5px;
+	font-size:14px;
+	color:#fffefe;
+	text-align:center;
+	line-height:19px;
+	background:#d60204;
+}
+.BabyNes-box .product ul li .box-1 p.p-3{
+	padding-top:2px;
+	width:171px;
+	height:19px;
+	font-size:18px;
+	color:#2568df;
+	text-align:center;
+	line-height:19px;
+}
+.BabyNes-box .product ul li p.p-4{
+	margin-top:10px;
+}
+.BabyNes-box .product ul li p.p-4 span.span-1{
+	font-size:18px;
+	color:#2568df;
+}
+.BabyNes-box .product ul li p.p-4 span.span-2{
+	font-size:24px;
+	color:#d60204;
+}
+.BabyNes-box .product ul li p.p-5{
+	width:94px;
+	height:30px;
+	margin-top:10px;
+	border:1px solid #ff7777;
+	background:#ff0000;
+	text-align:center;
+	line-height:30px;
+}
+.BabyNes-box .product ul li p.p-5 a{
+	font-size:18px;
+	color:#fefefe;
+}
+.MomMe-box{
+	width:1200px;
+	margin:75px auto 0;
+	overflow:hidden;
+}
+.MomMe-box h2{
+	width:1200px;
+	text-align:center;
+	font-size:36px;
+	color:#2568df;
+}
+.MomMe-box .yy-wr-fw{
+	margin-left:266px;
+	overflow:hidden;
+	margin-top:10px;
+}
+.MomMe-box .yy-wr-fw div{
+	float:left;
+}
+.MomMe-box .yy-wr-fw .box-2{
+	margin:0 15px;
+}
+.MomMe-box .yy-wr-fw .box-2 p{
+	font-size:22px;
+	color:#2065de;
+}
+.MomMe-box .nav{
+	width:1200px;
+	margin-top:25px;
+	overflow:hidden;
+}
+.MomMe-box .nav ul li{
+	float:left;
+	width:298px;
+	height:50px;
+	background:#2568df;
+	border:1px solid #b2caf4;
+	line-height:50px;
+}
+.MomMe-box .nav ul li a{
+	font-size:18px;
+	color:#fff;
+	background:url(../images/nav-1.png) no-repeat left;
+	padding:20px 0 20px 55px;
+	margin-left:38px;
+}
+.MomMe-box .nav ul li:hover{
+	border-right-color:#fff;
+}
+.MomMe-box .product{
+	margin-top:30px;
+	overflow:hidden;
+}
+.MomMe-box .product ul li{
+	float:left;
+	margin-right:150px;
+}
+.MomMe-box .product ul li.li-1{
+	margin-right:0px;
+}
+.MomMe-box .product ul li img{
+	margin-bottom:12px;
+}
+.MomMe-box .product ul li p.p-1{
+	font-size:21px;
+	color:#2568df;
+	line-height:32px;
+}
+.MomMe-box .product ul li p.p-2{
+	font-size:18px;
+	color:#d60204;
+	line-height:32px;
+}
+.MomMe-box .product ul li p.p-2 span{
+	color:#2568df;
+}
+.MomMe-box .product ul li .box-1{
+	overflow:hidden;
+	margin-top:5px;
+}
+.MomMe-box .product ul li .box-1 p{
+	float:left;
+}
+.MomMe-box .product ul li .box-1 p.p-1{
+	width:53px;
+	height:19px;
+	border:2px solid #d60204;
+	border-radius:5px;
+	font-size:14px;
+	color:#d60204;
+	text-align:center;
+	line-height:19px;
+}
+.MomMe-box .product ul li .box-1 p.p-2{
+	width:53px;
+	height:19px;
+	border:2px solid #d60204;
+	border-radius:5px;
+	font-size:14px;
+	color:#fffefe;
+	text-align:center;
+	line-height:19px;
+	background:#d60204;
+}
+.MomMe-box .product ul li .box-1 p.p-3{
+	padding-top:2px;
+	width:171px;
+	height:19px;
+	font-size:18px;
+	color:#2568df;
+	text-align:center;
+	line-height:19px;
+}
+.MomMe-box .product ul li p.p-4{
+	margin-top:10px;
+}
+.MomMe-box .product ul li p.p-4 span.span-1{
+	font-size:18px;
+	color:#2568df;
+}
+.MomMe-box .product ul li p.p-4 span.span-2{
+	font-size:24px;
+	color:#d60204;
+}
+.MomMe-box .product ul li p.p-5{
+	width:94px;
+	height:30px;
+	margin-top:10px;
+	border:1px solid #ff7777;
+	background:#ff0000;
+	text-align:center;
+	line-height:30px;
+}
+.MomMe-box .product ul li p.p-5 a{
+	font-size:18px;
+	color:#fefefe;
+}
+.footer{
+	width:1200px;
+	margin:90px auto 0;
+	overflow:hidden;
+}
+.footer p{
+	width:160px;
+	height:100px;
+	margin-left:515px;
+	padding-top:25px;
+	font-size:36px;
+	color:#2568df;
+	text-align:center;
+	background:url(../images/footer.jpg) no-repeat top;
+}
